@@ -1,0 +1,21 @@
+{
+    "model": "Ridge",
+    "alpha": 0.1,
+    "features": [
+        "updrs_lag1",
+        "updrs_lag2",
+        "updrs_roll10",
+        "updrs_roll3",
+        "delta_lag1",
+        "updrs_from_baseline",
+        "jitter",
+        "shimmer",
+        "hnr",
+        "rpde",
+        "ppe",
+        "sex"
+    ],
+    "target": "delta_motor_updrs",
+    "cv": "GroupKFold by subject",
+    "trained_on": "2026-02-04 15:35:33.148421"
+}
